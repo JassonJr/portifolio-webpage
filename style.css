@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-align: center;
+
+    font-family: 'Outfit', sans-serif;
+
+}
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(6,0,112,1) 46%, rgba(0,34,215,1) 100%);
+}
+
+header {
+    background-color: rgb(9, 15, 54);
+    height: 10vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: clamp(1.5rem, 2vw, 5rem);
+    color: lightblue;
+}
+
+nav {
+    /* background-color: crimson; */
+    height: 10vh;
+    width: 100vw;
+    padding: clamp(1rem, 2vw, 3rem);
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    column-gap: 15px;
+
+    font-size: clamp(1.5rem, 2vw, 5rem);
+}
+
+main {
+    /* background-color: gray; */
+    height: 70vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+
+    font-size: clamp(0.8rem, 2vw, 1.5rem);
+    color: aliceblue;
+}
+
+#about {
+    background-color: rgb(88, 108, 131);
+    border-radius: 10px;
+}
+
+#projects {
+    background-color: rgb(88, 108, 131);
+    border-radius: 10px;
+    display: none;
+}
+
+footer {
+    /* background-color: aquamarine; */
+    height: 10vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: clamp(0.8rem, 2vw, 1rem);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    color: white;
+    font-size: clamp(1rem, 2vw, 3rem);
+}
+
+button:active {
+    color: aqua;
+    text-decoration: underline;
+}
